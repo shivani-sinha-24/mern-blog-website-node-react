@@ -36,8 +36,9 @@ The backend server will be running on http://localhost:3009.
 # Running Frontend
 1. Navigate to the frontend directory:
 cd ../frontend
-@@ -59,6 +58,7 @@ npm install
-npm start
+
+2. npm install
+3. npm start
 The frontend server will be running on http://localhost:3000.
 
 
