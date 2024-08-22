@@ -1,24 +1,8 @@
-# mern-blogs-frontend
+# mern-blogs
 
 This is a simple blog application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The application allows users to create, read, update, and delete (CRUD) blog posts. The backend API is secured using JSON Web Tokens (JWT), and the frontend is built using React. The application also supports file uploads using AWS S3, state management with Redux Thunk, and UI styling with Bootstrap.
 
 # Live Url of mern-blog-website-node-react repo on vercel- https://mern-blog-website-node-react-a1zk.vercel.app/
-
-# Github link- https://github.com/shivani-sinha-24/mern-blog-website-node-react
-
-
-# Features
-User authentication using JWT
-Create, Read, Update, and Delete (CRUD) operations for blog posts
-File uploads handled by AWS S3
-Client-side routing using React Router
-API integration and state management using Redux Thunk
-Responsive and simple UI styled with Bootstrap
-
-# Technologies Used
-Backend: Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, AWS S3 SDK
-Frontend: React.js, React Router, Axios, Redux, Redux Thunk, Bootstrap
-Others: Vercel (for deployment), GitHub (for version control)
 
 # Installation
 Prerequisites
@@ -26,7 +10,7 @@ Node.js
 MongoDB (either local or MongoDB Atlas)
 AWS S3 account with a configured bucket
 
-# Backend
+# Running Backend
 1. Clone the repository:
 git clone https://github.com/shivani-sinha-24/mern-blog-website-node-react.git
 cd mern-blog-website-node-react
@@ -47,7 +31,22 @@ AWS_REGION=your_aws_region
 npm start
 The backend server will be running on http://localhost:3009.
 
-# Frontend
+# Running Frontend
+# Github link- https://github.com/shivani-sinha-24/mern-blog-website-node-react
+
+
+# Features
+User authentication using JWT
+Create, Read, Update, and Delete (CRUD) operations for blog posts
+File uploads handled by AWS S3
+Client-side routing using React Router
+API integration and state management using Redux Thunk
+Responsive and simple UI styled with Bootstrap
+
+# Technologies Used
+Backend: Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, AWS S3 SDK
+Frontend: React.js, React Router, Axios, Redux, Redux Thunk, Bootstrap
+Others: Vercel (for deployment), GitHub (for version control)
 
 1. Navigate to the frontend directory:
 cd ../frontend
@@ -58,6 +57,7 @@ npm install
 3. Start the frontend server:
 npm start
 The frontend server will be running on http://localhost:3000.
+
 
 # Backend API
 Endpoints
