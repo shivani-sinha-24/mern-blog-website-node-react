@@ -12,7 +12,7 @@ export const fetchUserData = createAsyncThunk(
     'user/fetchUserData',
     async (token, { rejectWithValue }) => {
         try {
-            const response = await postReq(`http://localhost:3009/user/get-user`, { token });
+            const response = await postReq(`https://mern-blog-website-node-react.vercel.app/user/get-user`, { token });
             console.log("responseresponse",response?.data)
             return response?.data;
         } catch (error) {
@@ -25,7 +25,7 @@ export const loginUser = createAsyncThunk(
     'user/loginUser',
     async (values, { rejectWithValue }) => {
         try {
-            const response = await postReq("http://localhost:3009/user/login", values);
+            const response = await postReq("https://mern-blog-website-node-react.vercel.app/user/login", values);
             if (response?.status == 200) {
                 // Store user in local storage
                 localStorage.setItem("blogUser", JSON.stringify(response?.data?.user));
@@ -46,7 +46,7 @@ export const registerUser = createAsyncThunk(
     'user/registerUser',
     async (user, { rejectWithValue }) => {
       try {
-        const response = await postReq("http://localhost:3009/user/signup", user);
+        const response = await postReq("https://mern-blog-website-node-react.vercel.app/user/signup", user);
         if (response.data.user) {
           localStorage.setItem("blogUser", JSON.stringify(response.data.user));
           toast.success("User Registeres Successfully");

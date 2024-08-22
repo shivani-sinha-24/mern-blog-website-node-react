@@ -15,7 +15,7 @@ export const fetchBlogById = createAsyncThunk(
   'blogs/fetchBlogById',
   async (blogId, { rejectWithValue }) => {
     try {
-      const response = await getReq(`http://localhost:3009/blog/${blogId}`);
+      const response = await getReq(`https://mern-blog-website-node-react.vercel.app/blog/${blogId}`);
       return response.data;
     } catch (error) {
       return rejectWithValue(error.response?.data || "An error occurred while fetching the blog.");
@@ -28,7 +28,7 @@ export const fetchAllBlogs = createAsyncThunk(
   'blogs/fetchAllBlogs',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await getReq('http://localhost:3009/blog');
+      const response = await getReq('https://mern-blog-website-node-react.vercel.app/blog');
       return response.data;
     } catch (error) {
       return rejectWithValue(error.response?.data || "An error occurred while fetching all blogs.");
@@ -41,7 +41,7 @@ export const updateBlog = createAsyncThunk(
   'blogs/updateBlog',
   async ({ blogId, blogData }, { rejectWithValue }) => {
     try {
-      const response = await putReq(`http://localhost:3009/blog/update-blog/${blogId}`, blogData);
+      const response = await putReq(`https://mern-blog-website-node-react.vercel.app/blog/update-blog/${blogId}`, blogData);
       if (response.error) {
         throw response.error;
       }
@@ -58,7 +58,7 @@ export const addCmnt = createAsyncThunk(
   'blogs/addCmnt',
   async (blogDetail, { rejectWithValue }) => {
     try {
-      const response = await postReq('http://localhost:3009/blog/add-comment', blogDetail);
+      const response = await postReq('https://mern-blog-website-node-react.vercel.app/blog/add-comment', blogDetail);
       return response.data;
     } catch (error) {
       return rejectWithValue(error.response?.data || "An error occurred while adding the comment.");
@@ -71,7 +71,7 @@ export const deleteBlog = createAsyncThunk(
   'blogs/deleteBlog',
   async (blogId, { rejectWithValue }) => {
     try {
-      const response = await deleteReq(`http://localhost:3009/blog/delete-blog/${blogId}`);
+      const response = await deleteReq(`https://mern-blog-website-node-react.vercel.app/blog/delete-blog/${blogId}`);
       if (response.error) {
         throw response.error;
       }

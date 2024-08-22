@@ -45,7 +45,7 @@ const CreateNewBlog = ({ reload, setReload }) => {
         "Content-Type": "multipart/form-data",
       }
     }
-    await axios.post("http://localhost:3009/blog/add-blog", blogObj, config)
+    await axios.post("https://mern-blog-website-node-react.vercel.app/blog/add-blog", blogObj, config)
     setReload(true)
     setFile('')
     setBlogObj({
