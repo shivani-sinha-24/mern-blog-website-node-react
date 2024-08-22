@@ -1,0 +1,61 @@
+.blog-image {
+    width: 100%;
+    height: 40vh;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 60vw;
+    height: fit-content;
+    max-height: 90vh;
+    border: none;
+    overflow-y: scroll;
+
+}
+
+.blog {
+    width: 100vw;
+    height: fit-content;
+}
+
+.cmnt-form-right {
+    width: 85%;
+}
+
+.publishe-date {
+    font-weight: 500;
+}
+
+.published-by {
+    font-weight: 500;
+}
+
+.user-name {
+    font-weight: 500;
+}
+
+.card-title-input {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.card-title-input:disabled {
+    color: #000;
+    /* Ensure color remains the same when disabled */
+    cursor: not-allowed;
+}
+
+.card-title-input:enabled {
+    border-bottom: 1px solid #ccc;
+    /* Optional: add underline when enabled */
+}

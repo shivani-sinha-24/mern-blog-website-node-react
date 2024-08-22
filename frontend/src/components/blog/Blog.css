@@ -1,0 +1,19 @@
+.blog-enlarge:hover{
+    transform:scale(1.05)
+}
+.read-more-btn:hover{
+    cursor: pointer;
+}
+.read-more-btn{
+    color:blue;
+}
+.card-img-top{
+    max-height: 200px;
+}
+.content{
+    max-height: 200px;
+    overflow: hidden;
+}
+.text-sm{
+    font-size: smaller;
+}

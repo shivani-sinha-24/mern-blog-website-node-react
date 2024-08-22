@@ -1,0 +1,17 @@
+.homepage{
+    height: 90vh;
+    overflow-y:scroll;
+}
+
+.blogs{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.blogs:hover{
+    
+}

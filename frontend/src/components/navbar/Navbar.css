@@ -1,0 +1,8 @@
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px rgb(145, 143, 143);
+       -moz-box-shadow: 0 8px 6px -6px rgb(145, 143, 143);
+            box-shadow: 0 8px 6px -6px rgb(145, 143, 143);
+}
+.nav-link:hover {
+ cursor:pointer;
+}

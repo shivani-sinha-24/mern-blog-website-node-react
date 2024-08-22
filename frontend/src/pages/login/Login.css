@@ -1,0 +1,91 @@
+.title{
+    color:  cornflowerblue;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.anchor{
+    text-decoration: none;
+    background-color: white;
+}
+
+.heading-new-account{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+.all-side-shadow {
+    -webkit-box-shadow: 0 0 10px #9c9a9a;
+    box-shadow: 0 0 10px #9c9a9a;
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+.login-form p{
+    background-color: white;
+    text-align: center;
+}
+.email_input, .password_input, .fullName_input{
+    position: relative;
+}
+.email_input > input, .password_input > input, .fullName_input > input{
+    padding-left: 30px;
+}
+.email_input .email_icon,
+.password_input .password_icon,
+.fullName_input .fullName_icon{
+    position: absolute;
+    left: 8px;
+    top: 10%;
+}
+.email_input .email_icon2,
+.password_input .password_icon2,
+.fullName_input .fullName_icon2{
+    position: absolute;
+    left: 8px;
+    top: 5%;
+}
+.form_title{
+    font-size: 2.5rem;
+    color: cornflowerblue;
+    font-weight: 600;
+    line-height: 34px;
+}
+@media(min-width:768px) and (max-width:1200px){
+    .form_title{
+        font-size: 2rem;
+    } 
+}
+.login-form-wrapper{
+    min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.small_text{
+    color: #9499a7;
+    font-size: 0.857rem;
+}
+.name-input{
+    background-color: white;
+}
+.white{
+    background-color: white;
+}
+.nborder{
+    border: none;
+}
+.login-btn{
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+}
+.login-btn:hover{
+    color: white;
+    background-color: #0d6efd;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.h_100vh{
+    min-height: 100vh;
+}

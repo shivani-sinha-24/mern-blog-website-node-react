@@ -1,0 +1,37 @@
+.cmnt{
+    height: fit-content;
+    width: 80vw;
+}
+.user-logo{
+    width:40px;
+    height:40px;
+    background-color:rgb(179, 179, 179);
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-logo h5{
+    color:white;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+.comment{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment-detail{
+    display: flex;
+    align-items: center;
+    flex: 3;
+    gap: 20px;
+}
+.comment-detail .info{
+    display: flex;
+    flex-direction: column;
+}
+.comment-detail .info span{
+    font-weight: 500;
+}
