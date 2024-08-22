@@ -4,6 +4,8 @@ This is a simple blog application built using the MERN stack (MongoDB, Express.j
 
 # Live Url of mern-blog-website-node-react repo on vercel- https://mern-blog-website-node-react-a1zk.vercel.app/
 
+# Github link- https://github.com/shivani-sinha-24/mern-blog-website-node-react
+
 # Installation
 Prerequisites
 Node.js
@@ -32,7 +34,11 @@ npm start
 The backend server will be running on http://localhost:3009.
 
 # Running Frontend
-# Github link- https://github.com/shivani-sinha-24/mern-blog-website-node-react
+1. Navigate to the frontend directory:
+cd ../frontend
+@@ -59,6 +58,7 @@ npm install
+npm start
+The frontend server will be running on http://localhost:3000.
 
 
 # Features
@@ -47,17 +53,6 @@ Responsive and simple UI styled with Bootstrap
 Backend: Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, AWS S3 SDK
 Frontend: React.js, React Router, Axios, Redux, Redux Thunk, Bootstrap
 Others: Vercel (for deployment), GitHub (for version control)
-
-1. Navigate to the frontend directory:
-cd ../frontend
-
-2. Install dependencies:
-npm install
-
-3. Start the frontend server:
-npm start
-The frontend server will be running on http://localhost:3000.
-
 
 # Backend API
 Endpoints
